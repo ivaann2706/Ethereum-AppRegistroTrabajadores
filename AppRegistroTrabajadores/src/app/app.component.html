@@ -1,0 +1,10 @@
+<select [(ngModel)]="acountSelected" >
+  <option *ngFor="let acount of Acounts" [ngValue]="acount">
+      {{acount.address}}
+  </option>
+</select>
+
+<button (click)="Register()">Register </button>
+<button (click)="GetRegisters()">Get registers</button>
+
+<li  *ngFor="let register of acountSelected.registers">{{register}}</li>
