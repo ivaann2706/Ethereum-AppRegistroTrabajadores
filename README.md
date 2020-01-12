@@ -238,8 +238,15 @@ Aquí se observa que se llama a la función Register para registrar un fichaje y
 
 Hasta aquí se ha visto como se crea un contrato, se despliega en una red de pruebas local y se lanza algunas llamadas para probarlo. Estas llamadas se han hecho a través del terminar ejecutando scripts. A continuación se desarrollará una pequeña interfaz web para interactuar con el contrato desplegado.
 
+## Desarrollo aplicación web
+Para el desarrollo de la aplicación web se va a usar Angular.
 
+Una vez que tenemos angular instalado y el resto de herramientas que necesitamos para ello, se usa el siguiente comando para crear un proyecto facilmente:
+```
+sudo ng new AppRegistroTrabajadores
+```
 
+https://es.stackoverflow.com/questions/106280/como-obtener-el-valor-seleccionado-de-un-select-en-angular-4
 
 
 
